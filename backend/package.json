@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "author": "Kyle Jones",
+  "dependencies": {
+    "coffee-script": "latest",
+    "express": "latest",
+    "express-namespace": "latest",
+    "sequelize": "~1.7.0-alpha2",
+    "sequelize-postgres": "~1.7.0-alpha2",
+    "bcrypt-nodejs": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.14"
+  }
+}
