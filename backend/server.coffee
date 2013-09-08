@@ -1,6 +1,6 @@
 express = require "express"
-Sequelize = require("sequelize-postgres").sequelize;
-pgsql = require("sequelize-postgres").pgsql;
+Sequelize = require("sequelize-postgres").sequelize
+postgres = require("sequelize-postgres").postgres
 utility =
 	bcrypt: require "bcrypt-nodejs"
 require "express-namespace"
@@ -10,7 +10,7 @@ port = 3000
 #Configuration
 console.log "Configuring Modules"
 app = express()
-sequelize = new Sequelize("Connection String Here")
+sequelize = new Sequelize("postgres://kjones@localhost:5432/totemmash_local")
 app.configure ->
 	app.use express.bodyParser()
 

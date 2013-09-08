@@ -8,7 +8,8 @@
     "express-namespace": "latest",
     "sequelize": "~1.7.0-alpha2",
     "sequelize-postgres": "~1.7.0-alpha2",
-    "bcrypt-nodejs": "latest"
+    "bcrypt-nodejs": "latest",
+    "pg": "~2.6.0"
   },
   "engines": {
     "node": ">=0.10.14"
